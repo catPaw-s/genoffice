@@ -1,0 +1,18 @@
+{
+  "stage": "after pagination refresh",
+  "pageDxCSSpx": 164.39999999999998,
+  "editors": [
+    {
+      "mode": "before",
+      "paragraphLeftShiftCSSpx": 0,
+      "paragraphPageOffset": "164.4px",
+      "emptyParagraphPageOffset": "direction: ltr; --doc-line-factor: var(--doc-line-factor-latin,1.2); --col-w: 642.53px; --doc-content-w: 642.53px; --doc-margin-left: 75.6px; --doc-margin-right: 75.6px; --page-cx: 164.4px; --col-dx: 0px; --col-dy: 0px;"
+    },
+    {
+      "mode": "after",
+      "paragraphLeftShiftCSSpx": 0,
+      "paragraphPageOffset": "164.4px",
+      "emptyParagraphPageOffset": "direction: ltr; --doc-line-factor: var(--doc-line-factor-latin,1.2); --col-w: 642.53px; --doc-content-w: 642.53px; --doc-margin-left: 75.6px; --doc-margin-right: 75.6px; --page-cx: 164.4px; --col-dx: 0px; --col-dy: 0px;"
+    }
+  ]
+}

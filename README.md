@@ -20,3 +20,9 @@ The original Chinese document SHA-256 is `7e5aefaccff966b6d8456bbdc5bf122242642d
 Only the document text and title metadata were translated. Section geometry, column settings, table structures, images and all other package parts are unchanged. The English document was rendered with bundled LibreOffice and all eight pages visually reviewed. The browser measurement JSON files above refer to the original Chinese document.
 
 English DOCX SHA-256: `e799417cf3cf7d2622d86249026d6d0e83ae5aae3cfd9cf3a4edf7a52e2128c0`.
+
+## Current English screenshots and measurements
+
+`subtitle-after-enter-english.png` and `metadata-after-enter-english.png` are unedited screenshots captured with the latest English DOCX in an isolated editor harness using the actual GenOffice editor extensions and document styles. They show the original mapping immediately after a paragraph split, before pagination, rather than the full desktop application. The fixed editor was tested alongside it using the same input.
+
+The `subtitle-english-*.json` and `metadata-english-*.json` files record both editors before and after pagination. For both English paragraphs, the original mapping shifts -164.4 CSS px and this PR shifts 0 immediately after Enter; after pagination both shift 0. Older Chinese screenshots and measurements are retained as historical evidence.
